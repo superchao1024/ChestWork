@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#1Affffff"
+        android:gravity="center"
+        android:text="智能衣柜"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击这里，进入列表查询"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:id="@+id/tv_type_close1"
+            android:layout_width="400dp"
+            android:layout_height="206dp"
+            android:layout_gravity="center"
+            android:background="#1Affffff"
+            android:gravity="center"
+            android:onClick="addClose"
+            android:src="@drawable/close_add1"
+            android:text="点击这里，进入列表查询"
+            android:textColor="#f00f" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击这里，进入图片查询"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_type_close2"
+            android:layout_width="400dp"
+            android:layout_height="216dp"
+            android:layout_gravity="center"
+            android:background="#1Affffff"
+            android:gravity="center"
+            android:src="@drawable/close_add2"
+            android:text="点击这里，进入图片查询"
+            android:textColor="#f00f" />
+    </LinearLayout><!--<Button--><!--android:id="@+id/showCloses"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:text="显示衣柜信息" />-->
+
+    <!--<Button--><!--android:id="@+id/control"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:text="控制板子" />-->
+
+
+</LinearLayout>
